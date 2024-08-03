@@ -12,6 +12,7 @@ from my_projects import run_projects
 from my_papers import run_papers
 from my_home import run_home
 from my_startup import run_startup
+import streamlit_option_menu
 
 st.set_page_config(page_title="Rahul Soundrarajan", layout="wide")
 from streamlit_option_menu import option_menu

@@ -81,6 +81,6 @@ def run():
     
 if __name__ == '__main__':
     #by default it will run at 8501 port
-    local_css('style' + os.path.sep + 'style.css')
+    local_css(os.getcwd() + os.path.sep +  'style' + os.path.sep + 'style.css')
     run()
 

@@ -7,6 +7,7 @@ import streamlit as st
 import streamlit as st
 import requests
 import json
+import os
 
 from my_projects import run_projects
 from my_papers import run_papers
@@ -80,6 +81,6 @@ def run():
     
 if __name__ == '__main__':
     #by default it will run at 8501 port
-    local_css("style/style.css")
+    local_css(r"style/style.css")
     run()
 

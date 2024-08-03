@@ -14,7 +14,6 @@ from my_home import run_home
 from my_startup import run_startup
 
 st.set_page_config(page_title="Rahul Soundrarajan", layout="wide")
-from streamlit_multi_menu import streamlit_multi_menu
 from streamlit_option_menu import option_menu
 # Use local CSS
 def local_css(file_name):

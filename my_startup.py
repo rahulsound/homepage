@@ -110,14 +110,19 @@ def run_startup_research():
     st.image('fig3_bbox.png', width=400)
     st.divider()
 
-    st.write('[link]](https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/rvnet.html) RVNet: Deep Sensor Fusion of Monocular Camera and Radar for Image-based Obstacle Detection in Challenging Environments ')
+    st.write('[[link]](https://arxiv.org/pdf/2003.01816.pdf) RODNet: Radar Object Detection using Cross-Modal Supervision ')
+    st.image('rodnet.png', width=400)
+    st.divider()
+
+    
+    st.write('[[link]](https://patrick-llgc.github.io/Learning-Deep-Learning/paper_notes/rvnet.html) RVNet: Deep Sensor Fusion of Monocular Camera and Radar for Image-based Obstacle Detection in Challenging Environments ')
     st.image('rvnet_3.png', width=400)
     st.image('rvnet_4.png', width=400)
     st.image('rvnet_5.png', width=400)
     st.image('rvnet_5.png', width=400)
     st.divider()
 
-    st.write('[link]]("o	https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf") 2019-Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems  ')
+    st.write('[[link]]("https://ml4ad.github.io/files/papers/Radar%20and%20Camera%20Early%20Fusion%20for%20Vehicle%20Detection%20in%20Advanced%20Driver%20Assistance%20Systems.pdf") 2019-Radar and Camera Early Fusion for Vehicle Detection in Advanced Driver Assistance Systems  ')
     st.image('qfig1.png', width=400)
     st.image('qfig2.png', width=400)
     st.image('rvnet_5.png', width=400)
@@ -129,10 +134,50 @@ def run_startup_research():
     st.dataframe(data)
     st.divider()    
 
+def run_prototyping():
+    st.subheader('List of open-source repositories and dev kits used for prototyping [non-NDA]')
+    st.divider()
+
+    st.write('Utilize SenseCAP AI sensor series from Seeedstudio:')
+    st.image('seeed.png', width=600)
+    st.image('seeed2.png', width=600)
+    st.divider()
+
+    st.write('[[link]](https://www.kaggle.com/datasets/benceveges/yolo-flir) Custom Object training experiments with FLIR dataset')
+    st.write('Custom object detection outputs based on YOLOV5:')
+    st.image('yolo-flir.png', width=600)
+    st.write('Increased detections with custom-object detection methodology compared to vanila YOLO:')
+    st.image('yolo-flir2.png', width=600)
+    st.write('Custom Object training - comparison of loss curves on Comet:')
+    st.image('comet.png', width=600)
+
+
+    st.write('[[link]](https://github.com/toolboc/Intelligent-Video-Analytics-with-NVIDIA-Jetson-and-Microsoft-Azure) The project makes use of the NVIDIA DeepStream SDK running on NVIDIA Jetson Embedded hardware to produce an Intelligent Video Analytics Pipeline.')
+
+    st.image('azure_archi.png', width=600)
+    st.divider()
+    st.write('Simplified view:')
+    st.image('hld-archi.png', width=600)
+    st.divider()
+    st.write('End-to-end view:')
+    st.image('toolboc-adaptation.png', width=600)
+    st.divider()
+
+    st.write('[[link]](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/video-analytics) Reference Architecture from MS Azure for Video Analytics - to tackle camera-only stream:')
+    st.image('azure_idea1.png', width=600)
+    st.image('azure_idea2.png', width=600)
+    st.divider()
+
+    st.write('[[link]](https://github.com/rahulsound/radcamfusion/blob/main/demo-v1.gif) Sample demo from BlueFusion sensor head with hardware synchronized radar+camera dataset collected at UCSD with a custom object detection model based on YOLOV8:')
+    st.image('demo.png', width=800)
+    st.divider()
+
+
 ################################################
 def run_startup():
     menu = ["Overview",
             "Research", 
+            "Rapid Prototyping"
             ]
 
     choice = st.sidebar.radio("Menu", menu)
@@ -140,4 +185,6 @@ def run_startup():
         run_startup_overview()
     elif choice == "Research":
         run_startup_research()
+    elif choice == "Rapid Prototyping":
+        run_prototyping()
 

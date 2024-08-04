@@ -91,16 +91,56 @@ def run_near_rt_ric():
     
 
 def run_non_rt_ric():
-    st.write('run_non_rt_ric:')
     st.markdown('''
-                ![link](./opendatacam.png)
-                ''')
+                ---
+                #### Overview:
+                #### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
+                ---
+                - Pubications:
+                    -   [Network Optimization: Non-Real-Time RIC Trial Analysis](https://www.mavenir.com/resources/network-optimization-non-real-time-ric-trial-analysis/)
+                ---
+                ##### :blue[Bayesian Optimization based algorithm]:
+                - Details to be filled.  
+                ---
+                
+            ''')
 
 def run_node_profiling():
-    st.write('run_node_profiling:')
+    st.markdown('''
+                ---
+                #### Overview:
+                #### :blue[Utilize Configuration Parameters and Performance Counters of a 4G network to profile eNBs]
+                ---
+                - IP:
+                    -   [Node Profiling ](https://patents.justia.com/patent/10735287)
+                ---
+                ##### :blue[Details to be filled]:
+                ---
+                
+            ''')
 
 def run_arima():
-    st.write('run_arima:')
+    st.markdown('''
+                ---
+                #### Overview:
+                #### :blue[Utilize seasonlity in Wireless KPIs for ARIMA based forecasting]
+                ---
+                - IP:
+                    -   [ARIMA based forecast](https://patents.justia.com/patent/20210224699)
+                ---
+                ##### :blue[Details to be filled]:
+                ---
+  ''')
 
 def run_kpi_prediction():
-    st.write('run_kpi_prediction:')
+    st.markdown('''
+                ---
+                #### Overview:
+                #### :blue[Utilize CMs and PMs in a wireless network for KPI prediction]
+                ---
+                - IP:
+                    -   [KPI Prediction](https://patents.justia.com/patent/11115287)
+                ---
+                ##### :blue[Details to be filled]:
+                ---
+  ''')

@@ -168,9 +168,18 @@ def run_prototyping():
     st.image('azure_idea2.png', width=600)
     st.divider()
 
+    st.write('[[link]](https://developer.nvidia.com/deepstream-sdk) Experiments based on Nvidia DeepStream on Jeston Nano for RTSP Streams')
+    st.image('nano-ds.png', width=600)
+    st.divider()
+
+
     st.write('[[link]](https://github.com/rahulsound/radcamfusion/blob/main/demo-v1.gif) Sample demo from BlueFusion sensor head with hardware synchronized radar+camera dataset collected at UCSD with a custom object detection model based on YOLOV8:')
     st.image('demo.png', width=800)
     st.divider()
+
+    # st.write('[[link]]() ')
+    # st.image()
+    # st.divider()
 
 
 ################################################

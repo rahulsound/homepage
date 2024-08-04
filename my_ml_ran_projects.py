@@ -43,27 +43,50 @@ def run_near_rt_ric():
                 - The E2 SM KPM implemented on the ns3 side streems UE, Cell and Node level KPMs to the Near-RT RIC.  
                 - A data-ingestion pipeline within the Near-RT RIC processes incoming data stores it in an internal database.  
                 - Cleaning, aggregation, null-value handling, interpolation etc. are othe procedures implemented within the ingestion pipeline.  
+                ''')
+    st.image('system-design.png', width=600, caption='https://arxiv.org/abs/2209.14171')
+    st.markdown('''
                 ---
-                
-
                 ##### :blue[RL Design]:
                 - Out of the several variants of RL, an offline off-policy style of RL was chosen.  
                 - Being off-policy helps collect training samples from different 'expert' policies available in ns3. 
                 - It also gives an opportunity to train and evaluate a custom policy different from the ones used to gather training data samples.   
-                - This is shown in the image below.  
-                - ![OfflineOffpolicy](offlineOffpolicy.png)
+                - This is shown in the image below.
+                ''')
+    st.image('offlineOffpolicy.png', width=600, caption='https://arxiv.org/abs/2005.01643')
+    st.markdown('''
+                - This way the RL agent is deployed after training is completed.
+                - It continues to collect samples [replay buffer] and is trainied in batches enabling it to customize its behaviour based on the mix of training data and new experiences seen after deployment.
+                - A list of key aspects that make the RL framework:
+                    - **State space**   : Consists of the E2SM KPMs from E2 nodes [total 8] consisting of UE, Cell and Nodel level data at a granularity of 100ms of simulation time.  
+                    - **Action space**  : 7 : Handover to 6 other NR cells OR 'no handover' to continue remaining in the current NR cell.  
+                    - **Reward**        : Exponential improvement in UE throughput - exponential decay \(alpha) times the time duration since last handover. The cost is to discourage the agent from taking too frequent handovers.
+                - The replay buffer collected for training consists of this [S, A, R, S'] tuples where S' corresponds to the 'next state' after taking action A.  
+                - The architecture of the RL agent includes other design aspects such as:  
+                    - Deciding the order of Markov Decision Process [MDP] - single event to infinte horizon
+                    - Exploration / Exploitation trade-off that accounts for the proportion of actions the agent should take based on historic data that maximizes cumulative reward v/s an exploratory action to discover the state-space.  
+                    - Soft-updates deciding the frequency and weights for overwriting model weights.  
+                    - Underlying architecture [Deep-Q Neural Network in this case] that defines the number of layers and number of neurons per layer.  
+                    - Activation functions, connectivity, pooling, drop-off etc. within the DQN.  
+                    - Learning Rate, batch-size and number of samples required for each training iteration.  
+                    - Number of heads of the REM  [Random Ensemble Mixture], specifically implemented to ensure the model doesn't over-estimate Q-values for out-of-distribution samples; as shown below.  
+                ''')
+    st.image('dqn-rem.png', width=600, caption='arXiv:1907.04543v4 [cs.LG] 22 Jun 2020')
 
+    st.markdown('''
                 ##### :blue[Data Flow]:
-
+                - Once deployed, the live E2 SM KPMs get ingested via the streaming pipeline, they undergo transformation [identical to the training phase] and get are fed into the input of the DQN network.  
+                - The agent outputs the target cell that would maximize the UE's Throughput. This could be the same cell [meaning no handover].  
+                - This cell-id is handled by the Near-RT RIC framework to prepare and invoke the E2 SM RC service that gets reflected in the ns3.  
+                - The UE is now handed over to this target-cell OR continues to remain in the same cell depending on the cell-id.
+                - There are other aspects to this flow related to E2 procedures such as:
+                    - ASN.1 encoding of parameters 
+                    - E2 procedures such as Setup, Subscription, Indication to facilitate this message exchange between E2 nodes and Near-RT RIC.
+                ---
                 ##### :blue[Evaluation]:
-
-                The E2 node would stream KPM data with UE, Cell and Node specific information.  
-                The RL model hosted in the Near-RT RIC cosumes these KPMs to 
-
-
-
-
-
+                - The RL agent was evaluated live during the [O-RAN PlugFest of 2021](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
+                - The evaluation results are presented [here](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
+                --- 
                 ''')
     
 

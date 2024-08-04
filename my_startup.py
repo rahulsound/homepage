@@ -172,7 +172,7 @@ def run_prototyping():
     st.image('nano-ds.png', width=600)
     st.divider()
 
-    st.write('Experiments with DeepStream SDK on Azure with Jetson Nano as Azure IoT Edge Device, streaming telemetry to Azure Analytics ')
+    st.write('Experiments with Nvida DeepStream SDK on Azure with Jetson Nano as Azure IoT Edge Device, streaming telemetry to Azure Analytics ')
     st.image('azure-nano.png', width=600)
     st.divider()
 

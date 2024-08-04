@@ -9,7 +9,7 @@ from my_ml_ran_projects import *
 def run_projects():
     menu = [
             "Summary",
-            "Explora", 
+            "EXPLORA | AI Explainability", 
             "AI/ML | Near-RT RIC",
             "AI/ML | Non-RT RIC",
             "Node-Profiling using CM and PM",
@@ -21,7 +21,7 @@ def run_projects():
     if choice == "Summary":
         st.divider()
         run_summary()
-    elif choice == "Explora":
+    elif choice == "EXPLORA | AI Explainability":
         run_explora()
     elif choice == "AI/ML | Near-RT RIC":
         run_near_rt_ric()

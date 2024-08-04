@@ -22,5 +22,5 @@ def run_about():
     st.write(md)
     st.divider()
     st.markdown('''
-        ##### :blue[Feel free to check out the tabs to your left and top to explore my work. Som links are under construction (just as a road to success :)]
+        ###### :blue[Feel free to check out the tabs to your left and top to explore my work. Some links are under construction (just as a road to success :)]
                 ''')

@@ -172,6 +172,10 @@ def run_prototyping():
     st.image('nano-ds.png', width=600)
     st.divider()
 
+    st.write('Experiments with DeepStream SDK on Azure with Jetson Nano as Azure IoT Edge Device, streaming telemetry to Azure Analytics ')
+    st.image('azure-nano.png', width=600)
+    st.divider()
+
 
     st.write('[[link]](https://github.com/rahulsound/radcamfusion/blob/main/demo-v1.gif) Sample demo from BlueFusion sensor head with hardware synchronized radar+camera dataset collected at UCSD with a custom object detection model based on YOLOV8:')
     st.image('demo.png', width=800)

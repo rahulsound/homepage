@@ -10,7 +10,7 @@ def run_home():
             "Skills and Interests" 
             ]
 
-    choice = st.sidebar.radio("Menu", menu)
+    choice = st.radio("Menu", menu)
     if choice == "About":
         run_about()
     elif choice == "Patents":

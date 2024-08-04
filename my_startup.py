@@ -176,6 +176,9 @@ def run_prototyping():
     st.image('azure-nano.png', width=600)
     st.divider()
 
+    st.write('Experiments with ["OpenDataCam"](https://github.com/opendatacam/opendatacam) to enable drawing countours on-the-fly and count objects based on these lines.')
+    st.image('opendatacam.png', width=600)
+    st.divider()
 
     st.write('[[link]](https://github.com/rahulsound/radcamfusion/blob/main/demo-v1.gif) Sample demo from BlueFusion sensor head with hardware synchronized radar+camera dataset collected at UCSD with a custom object detection model based on YOLOV8:')
     st.image('demo.png', width=800)

@@ -5,7 +5,7 @@ import pandas as pd
 def run_startup_overview():
     st.subheader('Founding member, VP, ML & Software Engg. | [BlueFusion Inc](https://bluefusion.tech/) | Sep-2022 to Nov-2023 | 1y, 3m')
     st.divider()
-    st.write('Summary:')
+    st.subheader('Summary:')
     st.write('''
         - Unique selling proposition: First-of-its-kind multi-modal, multi-spectrum sensor head with a data-centric architecture for all-weather sensing. 
         - [Secured NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2230398&HistoricalAwards=false) ($295K) and filed 5+ utility patents, solution applicable to multiple verticals: automotive, surveillance, and defence. 

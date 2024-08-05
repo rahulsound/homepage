@@ -38,8 +38,8 @@ def run_explora():
 
     st.markdown('''#### :red[Link to ongoing analysis with visualizations: [here](https://explora-ai-explainability.streamlit.app/)] ''')
 
-    st.markdown(''' --- ''')
-    
+    st.divider()
+
 st.subheader(":blue[Rahul Soundrarajan]", anchor='#about')
 st.markdown('''
 ###### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)

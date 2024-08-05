@@ -25,8 +25,10 @@ if 'sidebar_state' not in ss:
 def run_sub_header(online=True):
     if online:    
         st.write('[ [AIMLProjects](https://rahulsound.streamlit.app/AIMLProjects) | \
+                [Expertise](https://rahulsound.streamlit.app/Expertise) | \
                 [Explora](https://rahulsound.streamlit.app/Explora) | \
                 [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \
+                [Patents](https://rahulsound.streamlit.app/Patents) | \
                 [ResearchPapers](https://rahulsound.streamlit.app/ResearchPapers) |\
                 [Start-up](https://rahulsound.streamlit.app/Startup) ]')
     else:
@@ -94,12 +96,11 @@ def run():
     st.markdown('''
 ##### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
                 ''')
-    run_sub_header()
     run_about()
-    st.divider()
-    run_patents()
-    st.divider()
-    run_skills_and_interests()
+    # st.divider()
+    # run_patents()
+    # st.divider()
+    # run_skills_and_interests()
     st.divider()
 if __name__ == '__main__':
     #by default it will run at 8501 port

@@ -8,7 +8,7 @@ def run_sub_header(online=True):
                 [Explora](https://rahulsound.streamlit.app/Explora) | \
                 [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \
                 [Patents](https://rahulsound.streamlit.app/Patents) | \
-                [Research](https://rahulsound.streamlit.app/ResearchPapers) |\
+                [ResearchPapers](https://rahulsound.streamlit.app/ResearchPapers) |\
                 [Start-up](https://rahulsound.streamlit.app/Startup) ]')
     else:
         st.write('| [AIMLProjects](http://localhost:8501/AIMLProjects) | \

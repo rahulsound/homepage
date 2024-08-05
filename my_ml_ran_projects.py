@@ -1,8 +1,8 @@
 import streamlit as st
 
 
-def run_summary():
-    st.header(":blue[Summary]")
+def run_summary():  
+    st.header(":blue[Summary]")  
     st.markdown('''
     - The list of projects covered here are mainly related to ML based network optimizations - an endeavor I have been involved for the last 10 years.
     - These projects are a mix of PoCs and field-trials and my intention is to describe the thought process without divulging proprietary information.
@@ -11,10 +11,9 @@ def run_summary():
                 ''')
     st.markdown("")
 
-
 def run_near_rt_ric():
     st.markdown("")
-    st.header('Near RT RIC')
+    st.header(':blue[Near-RT RIC]')    
     st.markdown('''
                 #### Overview:
                 ##### :blue[Reinforcement Learning based Traffic Steering xApp to steer the UE to the best secondary cell that would maximize the UE Throughput.]
@@ -75,7 +74,6 @@ def run_near_rt_ric():
                     - Number of heads of the REM  [Random Ensemble Mixture], specifically implemented to ensure the model doesn't over-estimate Q-values for out-of-distribution samples; as shown below.  
                 ''')
     st.image('dqn-rem.png', width=600, caption='arXiv:1907.04543v4 [cs.LG] 22 Jun 2020')
-
     st.markdown('''
                 ##### :blue[Data Flow]:
                 - Once deployed, the live E2 SM KPMs get ingested via the streaming pipeline, they undergo transformation [identical to the training phase] and get are fed into the input of the DQN network.  
@@ -91,13 +89,11 @@ def run_near_rt_ric():
                 - The evaluation results are presented [here](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
                 ''')
     st.markdown("")
-    
 
 def run_non_rt_ric():
     st.markdown("")
-    st.header('Non RT RIC')
+    st.header(':blue[Non-RT RIC]')    
     st.markdown('''
-                ---
                 #### Overview:
                 #### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
                 ---
@@ -106,13 +102,12 @@ def run_non_rt_ric():
                 ---
                 ##### :blue[Bayesian Optimization based algorithm]:
                 - Details to be filled.  
-                
             ''')
     st.markdown("")
 
 def run_node_profiling():
     st.markdown("")
-    st.header("Node Profiling")
+    st.header(":blue[Node Profiling]")
     st.markdown('''
                 ---
                 #### Overview:
@@ -129,7 +124,7 @@ def run_node_profiling():
 
 def run_arima():
     st.markdown("")
-    st.header("ARIMA")
+    st.header(":blue[ARIMA]")
     st.markdown('''
                 ---
                 #### Overview:
@@ -145,7 +140,7 @@ def run_arima():
 
 def run_kpi_prediction():
     st.markdown("")
-    st.header("KPI Prediction")
+    st.header(":blue[KPI Prediction]")
     st.markdown('''
                 ---
                 #### Overview:

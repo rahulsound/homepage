@@ -116,5 +116,5 @@ st.markdown('''
                 ''')
 run_sub_header()
 run_ml_in_telecom()
-run_study_of_research_papers()
+#run_study_of_research_papers()
     

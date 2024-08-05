@@ -111,6 +111,12 @@ def run_non_rt_ric():
                 -   This was a  MRO / MLB use case, KPIs monitored included distribution of RSRP, RSRQ, CQI, BLER, UE Throughput, HO statistics such as Attempts, Failures (including causes), Call Drop rate etc.  
                 -   The configuration management (CM) paramters included A3 measurement Offset, Hysteresis, RS boost (Pa/Pb).
                ---
+                ##### :blue[Evaluation and Tools used]:
+                -   I used [glueviz](https://glueviz.org/) extensively in visualizing the KPIs to compare samples pre-and-post RIC depolyment.
+                -   It has built-in capability to visualize multi-dimensional linked data that was handy to color the same cells pre and post RIC deployment.
+                -   The paper has many plots that help in this evaluation especially the distribution of Timing Advance (TA) pre and post RIC deployment. It clearly shows the CM changes ensured UEs neither end-up in no-coverage zones OR in areas where multiple cells have a strong reference signals.
+                -   The evaluation also shows decrease in PRB utilization and BLER, and improvement in SINR.    
+                ---    
                 ##### :blue[Objective and Design]:
                 -   The objective was to tune the CMs to maximise specific KPIs such as user throughput and minimize KPIs as Call Drop Rate.
                 -   Given the state space consisting of CMs  (including their ranges) and the KPIs, the problem was modelled as a joint optimization function that would find the right combination of parameter values in the CM feature space that would maxmise UE Throughpt KPI and reduce Call Drop KPI.
@@ -126,8 +132,23 @@ def run_non_rt_ric():
             ''')
     st.image('botorch.png', caption='https://proceedings.neurips.cc/paper_files/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf')
     st.markdown('''
-                - 
-''')
+                -   The acquisition function follows a strategy of _'exploration v/s exploitation'_ which could sound familiar to an angent in a Reinforcement Learning framework, attempting to maximise the long term return. 
+                -   In the context of Bayesian Optimization, exploration-exploitation refers to the balance between two strategies when selecting the next point to evaluate:
+                    -   **Exploration**: Involves searching in areas of the input space where the model's predictions are uncertain or where fewer evaluations have been conducted. The goal of exploration is to gather more information about the objective function across the entire search space. This helps in building a more accurate surrogate model, reducing uncertainty, and potentially discovering new regions that might contain better solutions.
+                    -   **Exploitation**: Involves focusing on areas where the surrogate model predicts high performance based on current knowledge. The goal of exploitation is to make use of the information already gathered to find the optimum value more quickly by evaluating points that are likely to yield the best results according to the current model.
+                    -   Balancing Exploration and Exploitation:
+                        -   Too much exploitation can lead to local optima, where the search gets stuck in a region that is suboptimal because it ignores potentially better areas that have not been explored.
+                        -   Too much exploration can lead to inefficient use of resources, where the optimization process spends too much time evaluating points in regions that do not yield significant improvements.
+                ''')
+
+    st.image('multi-obj-botorch.png', caption='https://jonathan-guerne.medium.com/multi-objective-bayesian-optimization-with-botorch-3c5cf348c63b')
+
+    st.markdown('''
+                -   As shown in the toy-example above, after 15 iterations (and the end of the optimization in this case) an optimal has been reached around x = -0.2. When looking at the graph we can see that this is in fact a zone where both functions reach minimum.
+                -   Similarly, in the case of MLB/MRO optimization, BOTORCH helped identify the CM param values that resulted in reduction of HO failures and improvement of UE Throughput.
+                ---
+                ''')
+         
     st.markdown("")
 
 def run_node_profiling():

@@ -63,7 +63,7 @@ def run_study_of_research_papers():
 ---
 #### :blue[Architectures:]
 - Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges [[link]](https://ieeexplore.ieee.org/iel7/9739/10130694/10024837.pdf)
-    - Summary on [medium](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)
+    - Technical summary on [medium](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)
 - ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms [[link]](https://ieeexplore.ieee.org/document/9814869)
     - summary
 

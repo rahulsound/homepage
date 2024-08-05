@@ -84,13 +84,13 @@ def run():
         run_patents()
     elif selected == "Expertise":
         run_skills_and_interests()
-
-    run_about()
-    st.divider()
-    run_patents()
-    st.divider()
-    run_skills_and_interests()
-    st.divider()
+    else:
+        run_about()
+        st.divider()
+        run_patents()
+        st.divider()
+        run_skills_and_interests()
+        st.divider()
 
 
 if __name__ == '__main__':

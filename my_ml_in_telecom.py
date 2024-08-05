@@ -89,7 +89,7 @@ def run_study_of_research_papers():
 
 #### :blue[Traffic Steering use case:]
 - Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures [[link]](https://arxiv.org/abs/2209.14171)
-    - Technical summary [[here]](https://rahulsound.streamlit.app/~/+/#reinforcement-learning-based-traffic-steering-xapp-to-steer-the-ue-to-the-best-secondary-cell-that-would-maximize-the-ue-throughput)
+    - Technical summary [[here]](https://rahulsound.streamlit.app/~/+/#near-rt-ric)
 - Toward Modular and Flexible Open RAN Implementations in 6G Networks: Traffic Steering Use Case and O-RAN xApps [[link]](https://www.mdpi.com/1424-8220/21/24/8173)
     - Technical summary
 '''

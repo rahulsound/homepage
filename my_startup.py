@@ -204,7 +204,7 @@ def run_startup():
     #     run_prototyping()
 
     st.sidebar.markdown('''
-    # Start-up
+    # [Start-up](#overview)
     ## [Overview](#overview)
     ## [Research](#research) 
     ## [PoCs](#pocs)

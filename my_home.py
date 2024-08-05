@@ -20,7 +20,7 @@ def run_home():
 
     #Needs to be a single word, #should have only small case & header in the page should be in double quotes ""
     st.sidebar.markdown('''
-    # Home
+    # [Home](#about)
     ## [About](#about)
     ## [Patents](#patents) 
     ## [Expertise](#expertise)

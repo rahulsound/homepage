@@ -94,15 +94,40 @@ def run_non_rt_ric():
     st.markdown("")
     st.header(':blue[Non-RT RIC]', anchor='non-rt-ric')    
     st.markdown('''
-                #### Overview:
-                #### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
+                ##### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
                 ---
-                - Pubications:
-                    -   [Network Optimization: Non-Real-Time RIC Trial Analysis](https://www.mavenir.com/resources/network-optimization-non-real-time-ric-trial-analysis/)
+                ##### :blue[Pubications]:
+                -   [Network Optimization: Non-Real-Time RIC Trial Analysis](https://www.mavenir.com/resources/network-optimization-non-real-time-ric-trial-analysis/)
                 ---
                 ##### :blue[Bayesian Optimization based algorithm]:
-                - Details to be filled.  
+                - References:
+                    - [BOTORCH: A Framework for Efficient Monte-Carlo Bayesian Optimization](https://proceedings.neurips.cc/paper_files/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf)
+                    - [A Flexible Framework for Multi-Objective Bayesian Optimization using Random Scalarizations](https://arxiv.org/abs/1805.12168)
+                    - [Multi-Task Bayesian Optimization](https://proceedings.neurips.cc/paper_files/paper/2013/file/f33ba15effa5c10e873bf3842afb46a6-Paper.pdf)
+                ---
+                ##### :blue[Overview]:
+                -   This objective was to demonstrate a RIC based solution performs at par or better compared to a legacy RAN setup.  
+                -   The trial was RIC solution was deployed in a cluster of cells and the KPIs were monitored for evaluation of performance.  
+                -   This was a  MRO / MLB use case, KPIs monitored included distribution of RSRP, RSRQ, CQI, BLER, UE Throughput, HO statistics such as Attempts, Failures (including causes), Call Drop rate etc.  
+                -   The configuration management (CM) paramters included A3 measurement Offset, Hysteresis, RS boost (Pa/Pb).
+               ---
+                ##### :blue[Objective and Design]:
+                -   The objective was to tune the CMs to maximise specific KPIs such as user throughput and minimize KPIs as Call Drop Rate.
+                -   Given the state space consisting of CMs  (including their ranges) and the KPIs, the problem was modelled as a joint optimization function that would find the right combination of parameter values in the CM feature space that would maxmise UE Throughpt KPI and reduce Call Drop KPI.
+                ---    
+                ##### :blue[Bayesian Optimization and BoTorch Algorithm]:
+                -   Bayesian Optimization is a probabilistic model-based optimization technique used to find the minimum or maximum of a function that is expensive to evaluate. It is particularly useful for optimizing black-box functions where the objective function does not have a known form and its evaluations are noisy or costly.
             ''')
+    st.write('- [[Reference: jonathan-guerne]](https://jonathan-guerne.medium.com/an-introduction-to-bayesian-optimization-for-hyperparameter-tuning-4561825bf47b)')
+    st.image('bayesopt.png', caption='Bayesian Optimization breakdown')
+    st.markdown('''
+                -   BOTORCH is a modern programming framework for Bayesian optimization that combines Monte-Carlo (MC) acquisition functions, autodifferentiation, and variance reduction techniques. 
+                -   BOTORCH’s modular design facilitates flexible specification and optimization of probabilistic models written in PyTorch, simplifying implementation of new acquisition functions. 
+            ''')
+    st.image('botorch.png', caption='https://proceedings.neurips.cc/paper_files/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf')
+    st.markdown('''
+                - 
+''')
     st.markdown("")
 
 def run_node_profiling():

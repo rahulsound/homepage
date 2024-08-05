@@ -71,6 +71,7 @@ def run_study_of_research_papers():
 - ScalO-RAN: Energy-aware Network Intelligence Scaling in Open RAN [[link]](https://arxiv.org/abs/2312.05096)
     - Technical summary
 - Energy Consumption of Machine Learning Enhanced Open RAN: A Comprehensive Review [[link]](https://yo-ran.org/wp-content/uploads/2024/06/Energy_Consumption_of_Machine_Learning_Enhanced_Open_RAN_A_Comprehensive_Review.pdf)
+    - By [YO-RAN](https://www.linkedin.com/company/yo-ran/about/) YOrkshire Open Radio Access Networks
     - Technical summary
 
 #### :blue[Network Slicing use case:]

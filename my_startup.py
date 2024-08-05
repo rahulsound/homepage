@@ -135,7 +135,7 @@ def run_startup_research():
 
 def run_prototyping():
     st.header(":blue[PoCs]")
-    st.subheader('List of open-source repositories and dev kits used for prototyping [non-NDA]')
+    st.subheader('List of open-source repositories and dev kits used for prototyping')
 
     st.write('Utilize SenseCAP AI sensor series from Seeedstudio:')
     st.image('seeed.png', width=600)

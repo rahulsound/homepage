@@ -2,19 +2,22 @@ import streamlit as st
 
 
 def run_summary():
+    st.header(":blue[Summary]")
     st.markdown('''
-    #### :blue[Summary:]
     - The list of projects covered here are mainly related to ML based network optimizations - an endeavor I have been involved for the last 10 years.
     - These projects are a mix of PoCs and field-trials and my intention is to describe the thought process without divulging proprietary information.
     - I believe a multi-discplinary skillset is necessary to marry AI/ML and a complex domain such as Telecom.   
     - The materials I have used are from public domain.
                 ''')
+    st.markdown("")
+
 
 def run_near_rt_ric():
+    st.markdown("")
+    st.header('Near RT RIC')
     st.markdown('''
-                ---
                 #### Overview:
-                #### :blue[Reinforcement Learning based Traffic Steering xApp to steer the UE to the best secondary cell that would maximize the UE Throughput.]
+                ##### :blue[Reinforcement Learning based Traffic Steering xApp to steer the UE to the best secondary cell that would maximize the UE Throughput.]
                 ---
                 - Pubications:
                     -   Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures [[arXiv]](https://arxiv.org/abs/2209.14171), [[IEEE]](https://ieeexplore.ieee.org/document/10102369)
@@ -86,11 +89,13 @@ def run_near_rt_ric():
                 ##### :blue[Evaluation]:
                 - The RL agent was evaluated live during the [O-RAN PlugFest of 2021](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
                 - The evaluation results are presented [here](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
-                --- 
                 ''')
+    st.markdown("")
     
 
 def run_non_rt_ric():
+    st.markdown("")
+    st.header('Non RT RIC')
     st.markdown('''
                 ---
                 #### Overview:
@@ -101,11 +106,13 @@ def run_non_rt_ric():
                 ---
                 ##### :blue[Bayesian Optimization based algorithm]:
                 - Details to be filled.  
-                ---
                 
             ''')
+    st.markdown("")
 
 def run_node_profiling():
+    st.markdown("")
+    st.header("Node Profiling")
     st.markdown('''
                 ---
                 #### Overview:
@@ -118,8 +125,11 @@ def run_node_profiling():
                 ---
                 
             ''')
+    st.markdown("")
 
 def run_arima():
+    st.markdown("")
+    st.header("ARIMA")
     st.markdown('''
                 ---
                 #### Overview:
@@ -131,8 +141,11 @@ def run_arima():
                 ##### :blue[Details to be filled]:
                 ---
   ''')
+    st.markdown("")
 
 def run_kpi_prediction():
+    st.markdown("")
+    st.header("KPI Prediction")
     st.markdown('''
                 ---
                 #### Overview:
@@ -144,3 +157,4 @@ def run_kpi_prediction():
                 ##### :blue[Details to be filled]:
                 ---
   ''')
+    st.markdown("")

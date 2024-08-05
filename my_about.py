@@ -6,7 +6,7 @@ from my_skills_and_interests import run_skills_and_interests
 
 def run_about():
 
-    st.subheader('Summary:')
+    st.header(":blue[About]")
     md = ('''
         With over 23 years of diverse experience in telecom, machine learning, sensor fusion, and computer vision, I am an AI/ML technical consultant who designs and implements custom solutions for challenging problems that require cutting-edge technologies and deep domain knowledge.
 
@@ -22,5 +22,6 @@ def run_about():
     st.write(md)
     st.divider()
     st.markdown('''
-        ###### :blue[Feel free to check out the tabs to your left and top to explore my work. Some links are under construction (just as a road to success :))]
+        ###### :blue[Feel free to check out the tabs at the top to explore my work.]
                 ''')
+

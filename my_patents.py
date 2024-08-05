@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def run_patents():
-    st.subheader('PATENTS & PUBLICATIONS: ') 
+    st.header(":blue[Patents]") 
     st.write('[Filed patents list](https://patents.justia.com/inventor/rahul-soundrarajan)')
     md = ('''
 

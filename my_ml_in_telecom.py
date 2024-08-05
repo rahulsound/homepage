@@ -65,17 +65,32 @@ def run_study_of_research_papers():
 - Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges [[link]](https://ieeexplore.ieee.org/iel7/9739/10130694/10024837.pdf)
     - Technical summary on [medium](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)
 - ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms [[link]](https://ieeexplore.ieee.org/document/9814869)
-    - summary
+    - Technical summary
 
 #### :blue[Energy Saving use case]:
 - ScalO-RAN: Energy-aware Network Intelligence Scaling in Open RAN [[link]](https://arxiv.org/abs/2312.05096)
-    - summary
+    - Technical summary
 - Energy Consumption of Machine Learning Enhanced Open RAN: A Comprehensive Review [[link]](https://yo-ran.org/wp-content/uploads/2024/06/Energy_Consumption_of_Machine_Learning_Enhanced_Open_RAN_A_Comprehensive_Review.pdf)
-    - summary
+    - Technical summary
 
 #### :blue[Network Slicing use case:]
+- Technical White Paper Network Slicing from Samsung [[link]](https://images.samsung.com/is/content/samsung/assets/global/business/networks/insights/white-paper/network-slicing/200420_Samsung_Network_Slicing_Final.pdf)
+    - Technical summary 
+- Management of Network Slicing in 5G Radio Access Networks: Functional Framework and Information Models [[link]](https://arxiv.org/abs/1803.01142)
+    - Technical summary
+- Assessment of Security KPIs for 5G Network Slices for Special Groups of Subscribers [[link]](https://www.mdpi.com/2504-2289/7/4/169)
+    - Technical summary
+- AI-Based Resource Allocation in E2E Network Slicing with Both Public and Non-Public Slices [[link]](https://www.mdpi.com/2076-3417/13/22/12505)
+    - Technical summary
+- An E2E Network Slicing Framework for Slice Creation and Deployment Using Machine Learning [[link]](https://www.mdpi.com/1424-8220/23/23/9608)
+    - Technical summary
+- Safe and Accelerated Deep Reinforcement Learning-based O-RAN Slicing: A Hybrid Transfer Learning Approach [[link]](https://ieeexplore.ieee.org/document/10329948)
 
 #### :blue[Traffic Steering use case:]
+- Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures [[link]](https://arxiv.org/abs/2209.14171)
+    - Technical summary [[here]](https://rahulsound.streamlit.app/~/+/#reinforcement-learning-based-traffic-steering-xapp-to-steer-the-ue-to-the-best-secondary-cell-that-would-maximize-the-ue-throughput)
+- Toward Modular and Flexible Open RAN Implementations in 6G Networks: Traffic Steering Use Case and O-RAN xApps [[link]](https://www.mdpi.com/1424-8220/21/24/8173)
+    - Technical summary
 '''
     )
 

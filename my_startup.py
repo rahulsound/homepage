@@ -3,9 +3,9 @@ import pandas as pd
 
 
 def run_startup_overview():
-    st.subheader('Founding member, VP, ML & Software Engg. | [BlueFusion Inc](https://bluefusion.tech/) | Sep-2022 to Nov-2023 | 1y, 3m')
-    st.divider()
-    st.subheader('Summary:')
+    st.header(":blue[Overview]")
+    st.markdown('#### Founding member, VP, ML & Software Engg. | [BlueFusion Inc](https://bluefusion.tech/) | Sep-2022 to Nov-2023 | 1y, 3m')
+    st.markdown('#### Summary:')
     st.write('''
         - Unique selling proposition: First-of-its-kind multi-modal, multi-spectrum sensor head with a data-centric architecture for all-weather sensing. 
         - [Secured NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2230398&HistoricalAwards=false) ($295K) and filed 5+ utility patents, solution applicable to multiple verticals: automotive, surveillance, and defence. 
@@ -15,9 +15,9 @@ def run_startup_overview():
         - Tech Stack: Radar-Camera Fusion, Python, Computer Vision (YOLO), Azure IoT Edge, Hub, Azure IoT Stream Analytics, Nvidia Jetson series
                 
              ''')
-    st.divider()
 
 def run_startup_research():
+    st.header(":blue[Research]")
     st.subheader('Radar Datasets:')
     st.write('Reference: [link](https://www.mdpi.com/1424-8220/22/11/4208) "Towards Deep Radar Perception for Autonomous Driving: Datasets, Methods, and Challenges"')
     st.image('radar_perception_fwrk.png', width=400)
@@ -132,11 +132,10 @@ def run_startup_research():
     st.subheader('Experiments conducted for PoC:')
     data = pd.read_csv('exps_conducted.csv')
     st.dataframe(data)
-    st.divider()    
 
 def run_prototyping():
+    st.header(":blue[PoCs]")
     st.subheader('List of open-source repositories and dev kits used for prototyping [non-NDA]')
-    st.divider()
 
     st.write('Utilize SenseCAP AI sensor series from Seeedstudio:')
     st.image('seeed.png', width=600)
@@ -191,16 +190,30 @@ def run_prototyping():
 
 ################################################
 def run_startup():
-    menu = ["Overview",
-            "Research", 
-            "Rapid Prototyping"
-            ]
+    # menu = ["Overview",
+    #         "Research", 
+    #         "Rapid Prototyping"
+    #         ]
 
-    choice = st.sidebar.radio("Menu", menu)
-    if choice == "Overview":
-        run_startup_overview()
-    elif choice == "Research":
-        run_startup_research()
-    elif choice == "Rapid Prototyping":
-        run_prototyping()
+    # choice = st.sidebar.radio("Menu", menu)
+    # if choice == "Overview":
+    #     run_startup_overview()
+    # elif choice == "Research":
+    #     run_startup_research()
+    # elif choice == "Rapid Prototyping":
+    #     run_prototyping()
 
+    st.sidebar.markdown('''
+    # Start-up
+    ## [Overview](#overview)
+    ## [Research](#research) 
+    ## [PoCs](#pocs)
+    ''', unsafe_allow_html=True)
+
+    st.divider()
+    run_startup_overview()
+    st.divider()
+    run_startup_research()
+    st.divider()
+    run_prototyping()
+    st.divider()

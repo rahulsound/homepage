@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def run_skills_and_interests():
-    st.subheader('Core Interest:')
+    st.header(":blue[Expertise]")
     st.write('''Foster innovation in the intersection of Telecom & AI/ML, Computer Vision & Sensor Fusion domains | [ [filed patents](https://patents.justia.com/inventor/rahul-soundrarajan) ] ''')
     
     st.subheader('Machine Learning and AI:')

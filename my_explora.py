@@ -4,8 +4,10 @@ from my_interests import run_interests
 from my_about import run_about
 
 def run_explora():
-    st.divider()
-    st.subheader('Technical Consultant | AI/ML - O-RAN | Dec-1 2023 - Present ')
+    st.markdown("")
+    st.header(":blue[EXPLORA]")
+    st.markdown('##### Technical Consultant | AI/ML - O-RAN | Dec-1 2023 - Present ')
+    st.markdown('###### AI/ML EXPLainability for the Open RAN')
     md = ('''
             - Exploring graph-based methods for AI explainability with senior researchers: [Michele Polese](https://scholar.google.it/citations?user=JmMEy-QAAAAJ&hl=en) from [Northeastern University](https://www.northeastern.edu/) & [Dr. Claudio
             Fiandrino](https://scholar.google.com/citations?user=sxt0fiYAAAAJ&hl=it) from [IMDEA Networks](https://networks.imdea.org/). 
@@ -16,5 +18,5 @@ def run_explora():
           ''')
     st.write(md)
 
-    st.divider()
-    st.subheader(''':red[Link to ongoing analysis with visualizations: [here](https://explora-ai-explainability.streamlit.app/)] ''')
+    st.markdown('''#### :red[Link to ongoing analysis with visualizations: [here](https://explora-ai-explainability.streamlit.app/)] ''')
+    st.markdown(''' ''')

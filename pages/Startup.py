@@ -5,22 +5,22 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Start-up", layout="wide")
 def run_sub_header(online=True):
     if online:    
-        st.write('| [AIMLProjects](https://rahulsound.streamlit.app/AIMLProjects) | \
+        st.write('[ [AIMLProjects](https://rahulsound.streamlit.app/AIMLProjects) | \
                 [Expertise](https://rahulsound.streamlit.app/Expertise) | \
                 [Explora](https://rahulsound.streamlit.app/Explora) | \
                 [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \
                 [Patents](https://rahulsound.streamlit.app/Patents) | \
-                [Research](https://rahulsound.streamlit.app/ResearchPapers)\
-                [Start-up](https://rahulsound.streamlit.app/Startup) |')
+                [Research](https://rahulsound.streamlit.app/ResearchPapers) |\
+                [Start-up](https://rahulsound.streamlit.app/Startup) ]')
     else:
         st.write('| [AIMLProjects](http://localhost:8501/AIMLProjects) | \
                 [Expertise](http://localhost:8501/Expertise) | \
                 [Explora](http://localhost:8501/Explora) | \
                 [MLInTelecom](http://localhost:8501/MLInTelecom) | \
                 [Patents](http://localhost:8501/Patents) | \
-                [Research](http://localhost:8501/ResearchPapers)\
-                [Start-up](http://localhost:8501/Startup) |')
-
+                [Research](http://localhost:8501/ResearchPapers) |\
+                [Start-up](http://localhost:8501/Startup) ]')
+ 
 
 def run_startup_overview():
     st.header(":blue[Overview]")

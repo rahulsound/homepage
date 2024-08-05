@@ -113,7 +113,6 @@ def run_near_rt_ric():
     st.markdown("---")
 
 def run_non_rt_ric():
-    st.markdown("")
     st.header(':blue[Non-RT RIC]', anchor='non-rt-ric')    
     st.markdown('''
                 #### Overview:
@@ -172,10 +171,9 @@ def run_non_rt_ric():
                 ---
                 ''')
          
-    st.markdown("")
+    st.markdown("---")
 
 def run_node_profiling():
-    st.markdown("")
     st.header(":blue[Node Profiling]", anchor='node-profiling')
     st.markdown('''
                 #### Overview:
@@ -188,10 +186,9 @@ def run_node_profiling():
                 ---
                 
             ''')
-    st.markdown("")
+    st.markdown("---")
 
 def run_arima():
-    st.markdown("")
     st.header(":blue[ARIMA]", anchor='arima')
     st.markdown('''
                 #### Overview:
@@ -203,10 +200,9 @@ def run_arima():
                 ##### :blue[Details to be filled]:
                 ---
   ''')
-    st.markdown("")
+    st.markdown("---")
 
 def run_kpi_prediction():
-    st.markdown("")
     st.header(":blue[KPI Prediction]", anchor='kpi-prediction')
     st.markdown('''
                 #### Overview:
@@ -218,6 +214,7 @@ def run_kpi_prediction():
                 ##### :blue[Details to be filled]:
                 ---
   ''')
+    st.markdown("---")
 
 def streamlit_menu():
     selected = option_menu(
@@ -255,7 +252,7 @@ else:
     
     run_non_rt_ric()
     run_near_rt_ric()
-    
+
     run_node_profiling()
     run_arima()
     run_kpi_prediction()

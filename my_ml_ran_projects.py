@@ -94,6 +94,7 @@ def run_non_rt_ric():
     st.markdown("")
     st.header(':blue[Non-RT RIC]', anchor='non-rt-ric')    
     st.markdown('''
+                #### Overview:
                 ##### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
                 ---
                 ##### :blue[Pubications]:

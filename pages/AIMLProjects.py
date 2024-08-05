@@ -34,7 +34,6 @@ def run_summary():
     st.markdown("---")
 
 def run_near_rt_ric():
-    st.markdown("")
     st.header(':blue[Near-RT RIC]', anchor='near-rt-ric')    
     st.markdown('''
                 #### Overview:

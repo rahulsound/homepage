@@ -31,7 +31,7 @@ def run_summary():
     - I believe a multi-discplinary skillset is necessary to marry AI/ML and a complex domain such as Telecom.   
     - The materials I have used are from public domain.
                 ''')
-    st.markdown(""---)
+    st.markdown("---")
 
 def run_near_rt_ric():
     st.markdown("")

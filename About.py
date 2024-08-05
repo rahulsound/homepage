@@ -25,11 +25,9 @@ if 'sidebar_state' not in ss:
 def run_sub_header(online=True):
     if online:    
         st.write('[ [AIMLProjects](https://rahulsound.streamlit.app/AIMLProjects) | \
-                [Expertise](https://rahulsound.streamlit.app/Expertise) | \
                 [Explora](https://rahulsound.streamlit.app/Explora) | \
                 [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \
-                [Patents](https://rahulsound.streamlit.app/Patents) | \
-                [Research](https://rahulsound.streamlit.app/ResearchPapers) |\
+                #[Research](https://rahulsound.streamlit.app/ResearchPapers) |\
                 [Start-up](https://rahulsound.streamlit.app/Startup) ]')
     else:
         st.write('| [AIMLProjects](http://localhost:8501/AIMLProjects) | \
@@ -62,37 +60,46 @@ def run_about():
                 ''')
     
 def run():
-    def streamlit_menu():
-        selected = option_menu(
-            menu_title=None,  # required
-            options=["About", "Patents", "Expertise"],  # required
-            icons=["house", "mortarboard", "asterisk"],  # optional
-            menu_icon="cast",  # optional
-            default_index=0,  # optional
-            orientation="horizontal",
-        )
-        return selected
+#     def streamlit_menu():
+#         selected = option_menu(
+#             menu_title=None,  # required
+#             options=["About", "Patents", "Expertise"],  # required
+#             icons=["house", "mortarboard", "asterisk"],  # optional
+#             menu_icon="cast",  # optional
+#             default_index=0,  # optional
+#             orientation="horizontal",
+#         )
+#         return selected
     
+#     st.header(":blue[Rahul Soundrarajan]", anchor='#about')
+#     st.markdown('''
+# ##### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
+#                 ''')
+    
+#     selected = streamlit_menu()
+#     run_sub_header()
+#     if selected == "Patents":
+#         run_patents()
+#     elif selected == "Expertise":
+#         run_skills_and_interests()
+#     else:
+#         run_about()
+#         st.divider()
+#         run_patents()
+#         st.divider()
+#         run_skills_and_interests()
+#         st.divider()
+
     st.header(":blue[Rahul Soundrarajan]", anchor='#about')
     st.markdown('''
 ##### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
                 ''')
-    
-    selected = streamlit_menu()
-    run_sub_header()
-    if selected == "Patents":
-        run_patents()
-    elif selected == "Expertise":
-        run_skills_and_interests()
-    else:
-        run_about()
-        st.divider()
-        run_patents()
-        st.divider()
-        run_skills_and_interests()
-        st.divider()
-
-
+    run_about()
+    st.divider()
+    run_patents()
+    st.divider()
+    run_skills_and_interests()
+    st.divider()
 if __name__ == '__main__':
     #by default it will run at 8501 port
     run()

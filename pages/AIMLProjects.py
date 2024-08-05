@@ -252,8 +252,10 @@ elif selected == "KPI Prediction":
 else:
     run_summary()
     run_explora()
-    run_near_rt_ric()
+    
     run_non_rt_ric()
+    run_near_rt_ric()
+    
     run_node_profiling()
     run_arima()
     run_kpi_prediction()

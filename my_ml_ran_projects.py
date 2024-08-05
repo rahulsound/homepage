@@ -18,14 +18,14 @@ def run_near_rt_ric():
                 #### Overview:
                 ##### :blue[Reinforcement Learning based Traffic Steering xApp to steer the UE to the best secondary cell that would maximize the UE Throughput.]
                 ---
-                - Pubications:
-                    -   Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures [[arXiv]](https://arxiv.org/abs/2209.14171), [[IEEE]](https://ieeexplore.ieee.org/document/10102369)
-                    -   Mavenir’s RAN Intelligent Controller (RIC) Solution [[whitepaper]](https://www.mavenir.com/resources/mavenirs-ran-intelligent-controller-ric-solution/)
-                    -   Building the World’s First O-RAN-Compliant, AI-Powered, Closed-Loop Near-RT RIC [[blog]](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/)
+                ##### :blue[Pubications]:
+                -   Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures [[arXiv]](https://arxiv.org/abs/2209.14171), [[IEEE]](https://ieeexplore.ieee.org/document/10102369)
+                -   Mavenir’s RAN Intelligent Controller (RIC) Solution [[whitepaper]](https://www.mavenir.com/resources/mavenirs-ran-intelligent-controller-ric-solution/)
+                -   Building the World’s First O-RAN-Compliant, AI-Powered, Closed-Loop Near-RT RIC [[blog]](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/)
                 ---
-                - References:
-                    - Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems [[arXiv]](https://arxiv.org/abs/2005.01643)
-                    - An Optimistic Perspective on Offline Reinforcement Learning [[arXiv]](https://arxiv.org/abs/1907.04543)
+                ##### :blue[References]:
+                - Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems [[arXiv]](https://arxiv.org/abs/2005.01643)
+                - An Optimistic Perspective on Offline Reinforcement Learning [[arXiv]](https://arxiv.org/abs/1907.04543)
                 ---
                 ##### :blue[Reinforcement Learning]:
                 - Reinforcement Learning has been popularized by its effectiveness in fields like robotics and game-play.  

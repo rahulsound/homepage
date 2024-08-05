@@ -96,7 +96,7 @@ def run():
     st.markdown('''
 ##### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
                 ''')
-    run_sub_header
+    run_sub_header()
     run_about()
     # st.divider()
     # run_patents()

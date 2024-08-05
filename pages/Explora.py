@@ -36,8 +36,7 @@ def run_explora():
           ''')
     st.write(md)
 
-    st.markdown('''#### :red[Link to ongoing analysis with visualizations: [here](https://explora-ai-explainability.streamlit.app/)] ''')
-
+    st.markdown('''#### :red[Link to ongoing analysis with visualizations: [here](https://explora-ai-explainability.streamlit.app/)]''')
     st.markdown("---")
 
 st.subheader(":blue[Rahul Soundrarajan]", anchor='#about')

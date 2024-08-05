@@ -107,8 +107,7 @@ def run_near_rt_ric():
                 ---
                 ##### :blue[Evaluation]:
                 - The RL agent was evaluated live during the [O-RAN PlugFest of 2021](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
-                - The evaluation results are presented [here](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
-                ''')
+                - The evaluation results are presented [here](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)''')
     st.markdown("---")
 
 def run_non_rt_ric():
@@ -233,10 +232,10 @@ st.markdown('''
     
 selected = streamlit_menu()
 run_sub_header()
-if selected == "Near-RT RIC":
-    run_near_rt_ric()
-elif selected == "Explora":
+if selected == "Explora":
     run_explora()
+elif selected == "Near-RT RIC":
+    run_near_rt_ric()
 elif selected == "Non-RT RIC":
     run_non_rt_ric()
 elif selected == "Node Profiling":
@@ -247,11 +246,9 @@ elif selected == "KPI Prediction":
     run_kpi_prediction()
 else:
     run_summary()
-    run_explora()
-    
+    run_explora()    
     run_near_rt_ric()
     run_non_rt_ric()
-    
     run_node_profiling()
     run_arima()
     run_kpi_prediction()

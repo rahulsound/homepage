@@ -55,7 +55,7 @@ def run():
     def streamlit_menu():
         selected = option_menu(
             menu_title=None,  # required
-            options=["Home", "Start-up", "Projects", "Research Papers", "Contact"],  # required
+            options=["Home", "Start-up", "Projects", "Research & Study", "Contact"],  # required
             icons=["house", "asterisk", "book", "mortarboard", "envelope"],  # optional
             menu_icon="cast",  # optional
             default_index=0,  # optional
@@ -70,7 +70,7 @@ def run():
         run_home()
     elif selected == "Projects":
         run_projects()
-    elif selected == "Research Papers":
+    elif selected == "Research & Study":
         run_papers()
     elif selected == "Contact":
         run_contact()

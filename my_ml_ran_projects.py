@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def run_summary():  
-    st.header(":blue[Summary]")  
+    st.header(":blue[Summary]", anchor='summary-projects')  
     st.markdown('''
     - The list of projects covered here are mainly related to ML based network optimizations - an endeavor I have been involved for the last 10 years.
     - These projects are a mix of PoCs and field-trials and my intention is to describe the thought process without divulging proprietary information.
@@ -13,7 +13,7 @@ def run_summary():
 
 def run_near_rt_ric():
     st.markdown("")
-    st.header(':blue[Near-RT RIC]')    
+    st.header(':blue[Near-RT RIC]', anchor='near-rt-ric')    
     st.markdown('''
                 #### Overview:
                 ##### :blue[Reinforcement Learning based Traffic Steering xApp to steer the UE to the best secondary cell that would maximize the UE Throughput.]
@@ -92,7 +92,7 @@ def run_near_rt_ric():
 
 def run_non_rt_ric():
     st.markdown("")
-    st.header(':blue[Non-RT RIC]')    
+    st.header(':blue[Non-RT RIC]', anchor='non-rt-ric')    
     st.markdown('''
                 #### Overview:
                 #### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
@@ -107,7 +107,7 @@ def run_non_rt_ric():
 
 def run_node_profiling():
     st.markdown("")
-    st.header(":blue[Node Profiling]")
+    st.header(":blue[Node Profiling]", anchor='node-profiling')
     st.markdown('''
                 ---
                 #### Overview:
@@ -124,7 +124,7 @@ def run_node_profiling():
 
 def run_arima():
     st.markdown("")
-    st.header(":blue[ARIMA]")
+    st.header(":blue[ARIMA]", anchor='arima')
     st.markdown('''
                 ---
                 #### Overview:
@@ -140,7 +140,7 @@ def run_arima():
 
 def run_kpi_prediction():
     st.markdown("")
-    st.header(":blue[KPI Prediction]")
+    st.header(":blue[KPI Prediction]", anchor='kpi-prediction')
     st.markdown('''
                 ---
                 #### Overview:

@@ -18,7 +18,7 @@ def run_near_rt_ric():
                 #### Overview:
                 ##### :blue[Reinforcement Learning based Traffic Steering xApp to steer the UE to the best secondary cell that would maximize the UE Throughput.]
                 ---
-                ##### :blue[Pubications]:
+                ##### :blue[Publications]:
                 -   Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures [[arXiv]](https://arxiv.org/abs/2209.14171), [[IEEE]](https://ieeexplore.ieee.org/document/10102369)
                 -   Mavenir’s RAN Intelligent Controller (RIC) Solution [[whitepaper]](https://www.mavenir.com/resources/mavenirs-ran-intelligent-controller-ric-solution/)
                 -   Building the World’s First O-RAN-Compliant, AI-Powered, Closed-Loop Near-RT RIC [[blog]](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/)
@@ -97,7 +97,7 @@ def run_non_rt_ric():
                 #### Overview:
                 ##### :blue[MLB and MRO to reduce Handovers and improve UE throughput in a Tier-1 customer network]
                 ---
-                ##### :blue[Pubications]:
+                ##### :blue[Publications]:
                 -   [Network Optimization: Non-Real-Time RIC Trial Analysis](https://www.mavenir.com/resources/network-optimization-non-real-time-ric-trial-analysis/)
                 ---
                 ##### :blue[Bayesian Optimization based algorithm]:

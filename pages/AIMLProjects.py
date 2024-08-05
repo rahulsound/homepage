@@ -31,7 +31,7 @@ def run_summary():
     - I believe a multi-discplinary skillset is necessary to marry AI/ML and a complex domain such as Telecom.   
     - The materials I have used are from public domain.
                 ''')
-    st.markdown("")
+    st.markdown(""---)
 
 def run_near_rt_ric():
     st.markdown("")
@@ -110,7 +110,7 @@ def run_near_rt_ric():
                 - The RL agent was evaluated live during the [O-RAN PlugFest of 2021](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
                 - The evaluation results are presented [here](https://www.mavenir.com/blog/building-the-worlds-first-o-ran-compliant-ai-powered-closed-loop-near-rt-ric/#Section_4_O-RAN_Plugfest_Demo_results)
                 ''')
-    st.markdown("")
+    st.markdown("---")
 
 def run_non_rt_ric():
     st.markdown("")
@@ -178,7 +178,6 @@ def run_node_profiling():
     st.markdown("")
     st.header(":blue[Node Profiling]", anchor='node-profiling')
     st.markdown('''
-                ---
                 #### Overview:
                 #### :blue[Utilize Configuration Parameters and Performance Counters of a 4G network to profile eNBs]
                 ---
@@ -195,7 +194,6 @@ def run_arima():
     st.markdown("")
     st.header(":blue[ARIMA]", anchor='arima')
     st.markdown('''
-                ---
                 #### Overview:
                 #### :blue[Utilize seasonlity in Wireless KPIs for ARIMA based forecasting]
                 ---
@@ -211,7 +209,6 @@ def run_kpi_prediction():
     st.markdown("")
     st.header(":blue[KPI Prediction]", anchor='kpi-prediction')
     st.markdown('''
-                ---
                 #### Overview:
                 #### :blue[Utilize CMs and PMs in a wireless network for KPI prediction]
                 ---

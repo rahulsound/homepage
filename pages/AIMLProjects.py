@@ -145,12 +145,12 @@ def run_non_rt_ric():
                 -   Bayesian Optimization is a probabilistic model-based optimization technique used to find the minimum or maximum of a function that is expensive to evaluate. It is particularly useful for optimizing black-box functions where the objective function does not have a known form and its evaluations are noisy or costly.
             ''')
     st.write('- [[Reference: jonathan-guerne]](https://jonathan-guerne.medium.com/an-introduction-to-bayesian-optimization-for-hyperparameter-tuning-4561825bf47b)')
-    st.image('bayesopt2.png', caption='Bayesian Optimization breakdown')
+    st.image('bayesopt.png', caption='Bayesian Optimization breakdown')
     st.markdown('''
                 -   BOTORCH is a modern programming framework for Bayesian optimization that combines Monte-Carlo (MC) acquisition functions, autodifferentiation, and variance reduction techniques. 
                 -   BOTORCH’s modular design facilitates flexible specification and optimization of probabilistic models written in PyTorch, simplifying implementation of new acquisition functions. 
             ''')
-    st.image('botorch.png', caption='https://proceedings.neurips.cc/paper_files/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf')
+    st.image('botorch.png', width=900, caption='https://proceedings.neurips.cc/paper_files/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf')
     st.markdown('''
                 -   The acquisition function follows a strategy of _'exploration v/s exploitation'_ which could sound familiar to an angent in a Reinforcement Learning framework, attempting to maximise the long term return. 
                 -   In the context of Bayesian Optimization, exploration-exploitation refers to the balance between two strategies when selecting the next point to evaluate:

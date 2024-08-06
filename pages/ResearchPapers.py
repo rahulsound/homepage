@@ -32,9 +32,27 @@ def run_papers():
 
 
     st.divider()
+
+def run_medium():
+        st.markdown(
+        '''
+Here are some of my articles related to AI/ML in Telecom:
+1. [Understanding O-RAN Architecture](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)
+2. [The story of AI/ML driven use cases for Telecom: Part1](https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60)
+
+---
+''')
+        
 st.subheader(":blue[Rahul Soundrarajan]", anchor='#about')
 st.markdown('''
 ###### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
                 ''')
 run_sub_header()
+st.markdown(
+        '''
+### :blue[Motivation:]
+###### To list out intersting research papers and a summarize learnings from them. I also post my views on [Medium](https://medium.com/@rahulsound).
+''')
+run_medium()
+
 run_study_of_research_papers()

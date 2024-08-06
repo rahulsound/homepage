@@ -58,9 +58,7 @@ def run_ml_in_telecom():
 def run_study_of_research_papers():
     st.markdown(
         '''
-### :blue[Motivation:]
-###### To list out intersting research papers and a summarize learnings from them. 
----
+### :blue[Research Paper Categories::]
 #### :blue[Architectures:]
 - Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges [[link]](https://ieeexplore.ieee.org/iel7/9739/10130694/10024837.pdf)
     - [Technical summary on medium](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)

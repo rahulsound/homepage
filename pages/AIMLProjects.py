@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from pages.Explora import run_explora
+from pages.ProjectExplora import run_explora
 st.set_page_config(page_title="AI-ML Projects", layout="wide")
 # import sys
 # sys.path.insert(0, '...')
@@ -145,7 +145,7 @@ def run_non_rt_ric():
                 -   Bayesian Optimization is a probabilistic model-based optimization technique used to find the minimum or maximum of a function that is expensive to evaluate. It is particularly useful for optimizing black-box functions where the objective function does not have a known form and its evaluations are noisy or costly.
             ''')
     st.write('- [[Reference: jonathan-guerne]](https://jonathan-guerne.medium.com/an-introduction-to-bayesian-optimization-for-hyperparameter-tuning-4561825bf47b)')
-    st.image('bayesopt.png', caption='Bayesian Optimization breakdown')
+    st.image('bayesopt2.png', caption='Bayesian Optimization breakdown')
     st.markdown('''
                 -   BOTORCH is a modern programming framework for Bayesian optimization that combines Monte-Carlo (MC) acquisition functions, autodifferentiation, and variance reduction techniques. 
                 -   BOTORCH’s modular design facilitates flexible specification and optimization of probabilistic models written in PyTorch, simplifying implementation of new acquisition functions. 

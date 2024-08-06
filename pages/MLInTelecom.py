@@ -30,16 +30,16 @@ def run_ml_in_telecom():
 
     -   So prior to looking at applications and use cases of AI in Telecom, the story of data has its own place and needs to be told.    
     ---
-    #### :blue[The background story:]
+    #### :blue[The background story:] :green[ -- Full article [here](https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60)]
     ''')
-    st.image('storyOfData.png', caption='Story of Data')
+    st.image('storyOfData.png', width=1000, caption='https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60')
 
     st.divider()
 
     st.markdown('''
     #### :blue[The story of perspectives :]
     ''')
-    st.image('storyOfPers.png', caption='Story of Perspectives')
+    st.image('storyOfPers.png', width=1000 , caption='Story of Perspectives')
     st.divider()
 
     st.markdown('''
@@ -47,14 +47,14 @@ def run_ml_in_telecom():
     ##### :green[Approach#1 Get the work done :]
 
     ''')
-    st.image('appr1.png', caption='Approach#1')
+    st.image('appr1.png', width=1000 , caption='Approach#1')
     st.divider()
 
     st.markdown('''
     ##### :green[Approach#2 Need for 'alliances' :]
 
     ''')
-    st.image('appr2.png', caption='Approach#2')
+    st.image('appr2.png', width=1000 , caption='Approach#2')
     st.divider()
 
     st.markdown('''

@@ -48,9 +48,9 @@ st.markdown('''
 ###### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
                 ''')
 run_sub_header()
+st.header(":blue[Motivation]", anchor='#motivation-research')
 st.markdown(
         '''
-### :blue[Motivation:]
 ###### To list out intersting research papers and a summarize learnings from them. I also post my views on [Medium](https://medium.com/@rahulsound).
 ''')
 run_medium()

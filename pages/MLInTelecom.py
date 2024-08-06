@@ -19,8 +19,8 @@ def run_sub_header(online=True):
                 [Start-up](http://localhost:8501/Startup) ]')
         
 def run_ml_in_telecom():
+    st.header(":blue[AI/ML in Telecom]", anchor='#ml-in-telecom')
     st.markdown('''
-    ### :blue[AI/ML in Telecom:]
     ###### This pages covers my perspectives on how AI/ML can be infused into Telecom domain.
                 
     #### :blue[Data Fuels AI:]

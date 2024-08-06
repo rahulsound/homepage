@@ -60,7 +60,7 @@ def run_near_rt_ric():
                 
                 ##### :blue[System Design]:
                 - The system is configured in NSA mode wherein the UE has an anchor LTE eNB cell and upto 7 NR cells.  
-                - This is done using [[ns3]] (https://www.nsnam.org/)
+                - This is done using [[ns3]](https://www.nsnam.org/)
                 - There are about 20-100 UEs in the system doing full-buffer, bursty or a mix of full-buffer and bursty traffic.  
                 - The UEs are moving between 2 and 4 m/s to simulate pedestrian/slow moving users.  
                 - The E2 SM KPM implemented on the ns3 side streems UE, Cell and Node level KPMs to the Near-RT RIC.  

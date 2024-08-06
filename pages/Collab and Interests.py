@@ -32,6 +32,11 @@ def run_study_of_research_papers():
 - [**Technical summary on "xApps for O-RAN"**] 
     -   From the paper: "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms | [[full paper]](https://ieeexplore.ieee.org/document/9814869)
 
+##### :green[Traffic Steering use case:]
+- [**Technical summary on "RL based xApp for Traffic Steering**](https://rahulsound.streamlit.app/~/+/AIMLProjects#near-rt-ric) 
+    -   From the paper: "Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures" [[full paper]](https://arxiv.org/abs/2209.14171)
+- [**Technical summary on "Traffic Steering use case**] 
+    -   From the paper: "Toward Modular and Flexible Open RAN Implementations in 6G Networks: Traffic Steering Use Case and O-RAN xApps" [[full paper]](https://www.mdpi.com/1424-8220/21/24/8173)
 
 ##### :green[Energy Saving use case]:
 - [**Technical summary on "Energy Aware Network Intelligence"**] 
@@ -53,11 +58,7 @@ def run_study_of_research_papers():
 - [**Technical summary on "DRLs for O-RAN slicing"**] 
     -   From the paper: "Safe and Accelerated Deep Reinforcement Learning-based O-RAN Slicing: A Hybrid Transfer Learning Approach" [[full paper]](https://ieeexplore.ieee.org/document/10329948)
 
-##### :green[Traffic Steering use case:]
-- [**Technical summary on "RL based xApp for Traffic Steering**](https://rahulsound.streamlit.app/~/+/AIMLProjects#near-rt-ric) 
-    -   From the paper: "Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures" [[full paper]](https://arxiv.org/abs/2209.14171)
-- [**Technical summary on "Traffic Steering use case**] 
-    -   From the paper: "Toward Modular and Flexible Open RAN Implementations in 6G Networks: Traffic Steering Use Case and O-RAN xApps" [[full paper]](https://www.mdpi.com/1424-8220/21/24/8173)
+
 '''
     )
 def run_ml_in_telecom():
@@ -75,11 +76,12 @@ def run_ml_in_telecom():
     st.divider()
 
     st.markdown('''
-    - [**Part2 - The Approach(1): Get the work done!**]
+    - [**Part2 - The Approach(1): Get the work done!**](https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-59e1198d991b)
         -   _This approach looks at data and possibilities from a Telecom operator's point of view as they already have the data albeit not in a form that readily renders itself for data or ML-driven insights...._
 
     ''')
     st.image('appr1.png',width=500, caption='Approach#1')
+    st.image('son2.png',width=500, caption='https://www-file.huawei.com/-/media/corporate/pdf/mbb/next-gene-ation-son-for-5g.pdf?la=en')
     st.divider()
 
     st.markdown('''

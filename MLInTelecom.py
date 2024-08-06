@@ -19,7 +19,6 @@ def run_sub_header(online=True):
                 [Start-up](http://localhost:8501/Startup) ]')
         
 def run_ml_in_telecom():
-    st.header(":blue[AI/ML in Telecom]", anchor='#ml-in-telecom')
     st.markdown('''
     ###### This pages covers my perspectives on how AI/ML can be infused into Telecom domain.
                 
@@ -32,14 +31,14 @@ def run_ml_in_telecom():
     ---
     #### :blue[The background story:] :green[ -- Full article [here](https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60)]
     ''')
-    st.image('storyOfData.png', width=1000, caption='https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60')
+    st.image('storyOfData.png', caption='https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60')
 
     st.divider()
 
     st.markdown('''
     #### :blue[The story of perspectives :]
     ''')
-    st.image('storyOfPers.png', width=1000 , caption='Story of Perspectives')
+    st.image('storyOfPers.png' , caption='Story of Perspectives')
     st.divider()
 
     st.markdown('''
@@ -47,21 +46,21 @@ def run_ml_in_telecom():
     ##### :green[Approach#1 Get the work done :]
 
     ''')
-    st.image('appr1.png', width=1000 , caption='Approach#1')
+    st.image('appr1.png' , caption='Approach#1')
     st.divider()
 
     st.markdown('''
     ##### :green[Approach#2 Need for 'alliances' :]
 
     ''')
-    st.image('appr2.png', width=1000 , caption='Approach#2')
+    st.image('appr2.png' , caption='Approach#2')
     st.divider()
 
     st.markdown('''
     ##### :green[Approach#3 Ride the AI Wave :]
 
     ''')
-    st.image('appr3.png', width=800, caption='Approach#3')
+    st.image('appr3.png', caption='Approach#3')
     st.divider()
 
     st.markdown('''
@@ -73,9 +72,8 @@ def run_ml_in_telecom():
 def run_study_of_research_papers():
     st.markdown(
         '''
-### :blue[Motivation:]
+### :blue[Technical Summaries:]
 ###### To list out intersting research papers and a summarize learnings from them. 
----
 #### :blue[Architectures:]
 - Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges [[link]](https://ieeexplore.ieee.org/iel7/9739/10130694/10024837.pdf)
     - [Technical summary on medium](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)

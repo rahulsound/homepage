@@ -21,8 +21,11 @@ def run_sub_header(online=True):
         
 
 def run_skills_and_interests():
-    st.header(":blue[Expertise]")
-    st.write('''Foster innovation in the intersection of Telecom & AI/ML, Computer Vision & Sensor Fusion domains | [ [filed patents](https://patents.justia.com/inventor/rahul-soundrarajan) ] ''')
+    st.header(":blue[Skills & Expertise]")
+    st.markdown(''' 
+##### :violet[**_I am passionate about fostering innovation in the intersection of Telecom & AI/ML, Computer Vision & Sensor Fusion domains_ | [[filed patents]](https://patents.justia.com/inventor/rahul-soundrarajan)**]''')
+
+
     
     st.subheader('Machine Learning and AI:')
     st.write('''

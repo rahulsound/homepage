@@ -52,7 +52,7 @@ def run_about():
 
         Currently, I am working with Northeastern University and IMDEA Networks on [EXPLORA](https://rahulsound.streamlit.app/Consultancy), a framework that provides explainability of DRL-based control solutions for the Open RAN ecosystem.
 
-        In my last role, as a [founding member](https://rahulsound.streamlit.app/Startup) and VP of [BlueFusion Inc.](https://bluefusion.tech/), a Boston based start-up, I designed ML-based sensor fusion algorithms that helped demonstrate the capability and promise of the solution. This solution has applications for automotive, surveillance, UAVs, smart homes, V2X, and factory automation, and was in the start-up inception programs of Microsoft and Nvidia.
+        In my last role was a [founding member and VP ](https://rahulsound.streamlit.app/Startup) of [BlueFusion Inc.](https://bluefusion.tech/), a Boston based start-up. I designed ML-based sensor fusion algorithms that helped demonstrate the capability and promise of the solution. This solution has applications for automotive, surveillance, UAVs, smart homes, V2X, and factory automation, and was in the start-up inception programs of Microsoft and Nvidia.
 
           
         '''

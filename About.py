@@ -50,9 +50,9 @@ def run_about():
 
         I hold multiple [patents](https://rahulsound.streamlit.app/Patents) and publications in applied ML, specifically related to network optimization. In my previous role, I have designed and evaluated complex ML based solutions for O-RAN (Near and Non-RT RAN Intelligent Controller)
 
-        Currently, I am working with Northeastern University and IMDEA Networks on [EXPLORA](https://rahulsound.streamlit.app/Explora), a framework that provides explainability of DRL-based control solutions for the Open RAN ecosystem.
+        Currently, I am working with Northeastern University and IMDEA Networks on [EXPLORA](https://rahulsound.streamlit.app/Consultancy), a framework that provides explainability of DRL-based control solutions for the Open RAN ecosystem.
 
-        In my last role, as a [founding member and VP of ML & SW Engineering at BlueFusion Inc.](http://localhost:8501/Startup), a Boston based start-up, I designed ML-based sensor fusion algorithms that helped demonstrate the capability and promise of the solution. This solution has applications for automotive, surveillance, UAVs, smart homes, V2X, and factory automation, and was in the start-up inception programs of Microsoft and Nvidia.
+        In my last role, as a [founding member](https://rahulsound.streamlit.app/Startup) and VP of [BlueFusion Inc.](https://bluefusion.tech/), a Boston based start-up, I designed ML-based sensor fusion algorithms that helped demonstrate the capability and promise of the solution. This solution has applications for automotive, surveillance, UAVs, smart homes, V2X, and factory automation, and was in the start-up inception programs of Microsoft and Nvidia.
 
           
         '''

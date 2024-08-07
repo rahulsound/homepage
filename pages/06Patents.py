@@ -2,13 +2,13 @@ import streamlit as st
 st.set_page_config(page_title="Patents", layout="wide")
 def run_sub_header(online=True):
     if online:    
-        st.write('[ [AIMLProjects](https://rahulsound.streamlit.app/AIMLProjects) | \
-                [Expertise](https://rahulsound.streamlit.app/Expertise) | \
-                [Explora](https://rahulsound.streamlit.app/Explora) | \
+        st.write('[A StartupFounder](https://rahulsound.streamlit.app/A_StartupFounder) | \
+                [Consultancy](https://rahulsound.streamlit.app/Consultancy) | \
+                [AI ML Projects](https://rahulsound.streamlit.app/AI_ML_Projects) | \
                 [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \
-                [Patents](https://rahulsound.streamlit.app/Patents) | \
-                [ResearchPapers](https://rahulsound.streamlit.app/ResearchPapers) |\
-                [Start-up](https://rahulsound.streamlit.app/Startup) ]')
+                [Research](https://rahulsound.streamlit.app/Research) | \
+                [Patents](https://rahulsound.streamlit.app/Patents) |\
+                [Skills](https://rahulsound.streamlit.app/Skills) ]')
     else:
         st.write('| [AIMLProjects](http://localhost:8501/AIMLProjects) | \
                 [Expertise](http://localhost:8501/Expertise) | \
@@ -18,7 +18,6 @@ def run_sub_header(online=True):
                 [Research](http://localhost:8501/ResearchPapers) |\
                 [Start-up](http://localhost:8501/Startup) ]')
  
-
 def run_patents():
     st.header(":blue[Patents]") 
     st.write('[Filed patents list](https://patents.justia.com/inventor/rahul-soundrarajan)')

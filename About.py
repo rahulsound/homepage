@@ -6,9 +6,7 @@ import streamlit as st
 # Frontend using streamlit"
 import streamlit as st
 import os
-from pages.Patents import run_patents
-from pages.Skills import run_skills_and_interests
-from streamlit_option_menu import option_menu
+
 st.set_page_config(page_title="Rahul Soundrarajan", layout="wide", )
 online_flag = True
 from streamlit import session_state as ss

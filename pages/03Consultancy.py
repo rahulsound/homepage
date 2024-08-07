@@ -8,7 +8,6 @@ def run_sub_header(online=True):
         st.write('[ [A StartupFounder](https://rahulsound.streamlit.app/A_StartupFounder) | \
                 [Consultancy](https://rahulsound.streamlit.app/Consultancy) | \
                 [AI ML Projects](https://rahulsound.streamlit.app/AI_ML_Projects) | \
-                [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \
                 [Research](https://rahulsound.streamlit.app/Research) | \
                 [Patents](https://rahulsound.streamlit.app/Patents) |\
                 [Skills](https://rahulsound.streamlit.app/Skills) ]')

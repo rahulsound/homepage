@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Research Papers", layout="wide")
 def run_sub_header(online=True):
     if online:    
-        st.write('[A StartupFounder](https://rahulsound.streamlit.app/A_StartupFounder) | \
+        st.write('[ [A StartupFounder](https://rahulsound.streamlit.app/A_StartupFounder) | \
                 [Consultancy](https://rahulsound.streamlit.app/Consultancy) | \
                 [AI ML Projects](https://rahulsound.streamlit.app/AI_ML_Projects) | \
                 [MLInTelecom](https://rahulsound.streamlit.app/MLInTelecom) | \

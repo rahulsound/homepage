@@ -72,7 +72,7 @@ def run_ml_in_telecom():
     ''')
     st.image('storyOfData.png', width=500, caption='https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60')
 
-    st.image('storyOfPers.png', width=500 , caption='Story of Perspectives')
+    #st.image('storyOfPers.png', width=500 , caption='Story of Perspectives')
     st.divider()
 
     st.markdown('''
@@ -80,7 +80,7 @@ def run_ml_in_telecom():
         -   _This approach looks at data and possibilities from a Telecom operator's point of view as they already have the data albeit not in a form that readily renders itself for data or ML-driven insights...._
 
     ''')
-    st.image('appr1.png',width=500, caption='Approach#1')
+    #st.image('appr1.png',width=500, caption='Approach#1')
     st.image('son2.png',width=500, caption='https://www-file.huawei.com/-/media/corporate/pdf/mbb/next-gene-ation-son-for-5g.pdf?la=en')
     st.divider()
 

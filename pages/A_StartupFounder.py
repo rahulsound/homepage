@@ -33,8 +33,9 @@ def run_startup_overview():
         - Adapted [GitHub repo](https://github.com/toolboc/Intelligent-Video-Analytics-with-NVIDIA-Jetson-and-Microsoft-Azure) for edge to cloud streaming that utilized Azure services: Azure IoT Edge, IoT Hub, Azure Stream Analytics.
         - This fusion PoC helped secure $150K+ credits through start-up inception programs (Microsoft, Nvidia, AWS)
         - Tech Stack: Radar-Camera Fusion, Python, Computer Vision (YOLO), Azure IoT Edge, Hub, Azure IoT Stream Analytics, Nvidia Jetson series
-                
+              
              ''')
+    st.markdown('##### This page covers the prior-art research artifacts and experimentation done to realize a functioning proof-of-concept.')
 
 def run_startup_research():
     st.header(":blue[Research]")

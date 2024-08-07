@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from pages.Current_Project_Explora import run_explora
+from pages.Project_Explora import run_explora
 st.set_page_config(page_title="AI-ML Projects", layout="wide")
 # import sys
 # sys.path.insert(0, '...')

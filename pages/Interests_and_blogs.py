@@ -85,7 +85,8 @@ def run_ml_in_telecom():
     st.divider()
 
     st.markdown('''
-    - [**Part2 - The Approach(2): Need for Alliances**]
+    - [**Part2 - The Approach(2): Need for Alliances**](https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-b2fbb2876e97)
+        -   _Following the previous line of thought, there are different players in this field each having different strengths and weaknesses. So this part covers the foundations of such alliances — the mission, objective, gain and...._
 
     ''')
     st.image('appr2.png' , width=500, caption='Approach#2')
@@ -98,8 +99,18 @@ def run_ml_in_telecom():
     st.image('appr3.png', width=500, caption='Approach#3')
     st.divider()
 
+    # st.markdown('''
+    # ###### Details of these approaches and further infomation -> In Progress...
+
+    # ''')
     st.markdown('''
-    ###### Details of these approaches and further infomation -> In Progress...
+    - [**The Knowledge Transfer - Principles to take from Sherlock Holmes to Analytics & from Computing to Behavioral Science**](https://medium.com/@rahulsound/the-knowledge-transfer-principles-you-take-from-sherlock-holmes-to-analytics-and-from-computing-c4380ef17b09)
+        -   _Introspection: I have noticed that certain lines I read or hear just jump out at me and make me pause and look up at the ceiling munching and ruminating over its implications in different contexts. I realized that I can strip out the context and relate to it from totally ...._
+
+    ''')
+    st.markdown('''
+    - [**5 Tips for a Budding Data Scientist:**](https://medium.com/@rahulsound/notes-to-a-budding-data-science-enthusiast-ce47720b679b)
+        -   _When you read the sentence ‘Mercury is hot’ — you immediately want to find out if the word ‘mercury’ here refers to the planet or liquid metal. Why don’t we do this when we come across words like ‘cluster’ or ‘model’ in a data science context? It is easy to lose ourselves in this heap of ...._
 
     ''')
  

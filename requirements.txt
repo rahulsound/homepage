@@ -1,3 +1,4 @@
 streamlit_option_menu
-ydata-profiling
 visions==0.7.5 
+ydata-profiling
+streamlit_pandas_profiling

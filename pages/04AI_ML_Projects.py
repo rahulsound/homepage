@@ -246,11 +246,7 @@ st.markdown('''
                 
             ''')
 
-st.subheader(":blue[Rahul Soundrarajan]", anchor='#about')
-st.markdown('''
-###### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)
-                ''')
-    
+
 selected = streamlit_menu()
 run_sub_header()
 if selected == "Explora":

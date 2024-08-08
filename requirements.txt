@@ -1,3 +1,2 @@
 streamlit_option_menu
-ydata-profiling==4.1.0
-streamlit-pandas-profiling==0.1.3
+

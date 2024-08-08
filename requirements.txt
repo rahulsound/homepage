@@ -1,1 +1,3 @@
-streamlit_option_menu 
+streamlit_option_menu
+ydataydata-profiling
+streamlit-pandas-profiling 

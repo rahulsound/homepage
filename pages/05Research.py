@@ -133,7 +133,6 @@ Here are some of my articles related to AI/ML in Telecom:
 1. [Understanding O-RAN Architecture](https://medium.com/@rahulsound/understanding-o-ran-architecture-978cc49deea7)
 2. [The story of AI/ML driven use cases for Telecom: Part1](https://medium.com/@rahulsound/the-story-of-ai-ml-driven-use-cases-for-telecom-0527067f1d60)
 
----
 ''')
         
 st.subheader(":blue[Rahul Soundrarajan]", anchor='#about')
@@ -159,8 +158,10 @@ st.header(":blue[Research Interests]", anchor='#research-interests')
 
 st.markdown(
         '''
-##### Using AI/ML to optimise Telecom Networks is one of my core interests. 
-##### To learn and collaborate, I prepare summaries of research papers and also share my personal views as articles on [Medium](https://medium.com/@rahulsound). 
+###### Using AI/ML to optimise Telecom Networks is one of my core interests.   
+-   **To learn and collaborate, I prepare summaries of research papers and also share my personal views as articles on [Medium](https://medium.com/@rahulsound)**.   
+-   **I also experiment with quick exploratory dashboards for open Telecom datasets**
+    -   **[Click here](https://rahulsound-4g-5g-eda.streamlit.app/) to check out a quick exploratory dashboard for an open dataset from an [LTE network](https://data.mendeley.com/datasets/bfkdfy6x95/1).**
 ---
 ''')
 

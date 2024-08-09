@@ -54,7 +54,7 @@ def run_skills_and_interests():
     st.write('Descriptive & Predictive Analysis and applying Hypothesis testing, Confusion matrix in model evaluation')
 
     st.subheader('Programming Languages')
-    st.write('C, C++, Python [pandas, numpy, sklearn, matplotlib, seaborn, nltk, plotly, bokeh')
+    st.write('C, C++, Python [pandas, numpy, sklearn, matplotlib, seaborn, nltk, plotly, bokeh]')
 
     st.subheader('Tools')
     st.write('OpenAI Gym, Jupyter notebooks, Pycharm, Spyder, Matlab, Octave, Tableau')

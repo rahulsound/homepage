@@ -22,8 +22,8 @@ def run_skills_and_interests():
     st.header(":blue[Skills & Expertise]")
     st.markdown(''' 
 ###### :violet[**I am passionate about fostering innovation in the intersection of Telecom & AI/ML, Computer Vision & Sensor Fusion domains | [[filed patents]](https://patents.justia.com/inventor/rahul-soundrarajan)**]
-''')
-st.write('Reskilling is essential to keep-up with Tech and figure out how to do things better...') 
+''')    
+    st.write('Reskilling is essential to keep-up with Tech and figure out how to do things better...') 
 
 
     

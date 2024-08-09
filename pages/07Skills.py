@@ -70,7 +70,8 @@ def run_skills_and_interests():
     st.write('[**"One ounce of practice is worth a thousand pounds of theory"** ](https://vivekavani.com/harvard-qa-swami-vivekananda/)- _Swami Vivekananda_')
     st.write('I have been at the "Do-and-Learn" cycle for a while to figure out better ways of approaching problems that make an impact.')
     df = pd.read_csv('skill_progress.csv')
-    st.dataframe(df, hide_index=True)
+    #st.dataframe(df, hide_index=True)
+    st.table(df)
 
 
 

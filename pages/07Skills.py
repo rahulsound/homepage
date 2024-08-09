@@ -63,6 +63,15 @@ def run_skills_and_interests():
     st.subheader('Media:')
     st.write('[LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/), [Medium](https://medium.com/@rahulsound), [GitHub](https://github.com/rahulsound)')
 
+    st.write("")
+    st.subheader('Skill Development Graph:')
+    st.write('[**"One ounce of practice is worth a thousand pounds of theory"** ](https://vivekavani.com/harvard-qa-swami-vivekananda/)- _Swami Vivekananda_')
+    st.write('Reskilling is essential to keep-up with Tech and figure out how to do things better... ')  
+    st.write('I have been at the "Do-and-Learn" cycle for a while to figure out better ways of approaching problems that make an impact.')
+    df = pd.read_csv('skill_progress.csv', index_col='Year')
+    st.table(df)
+
+
 st.subheader(":blue[Rahul Soundrarajan]", anchor='#about')
 st.markdown('''
 ###### [LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/) | [Medium](https://medium.com/@rahulsound) | [Contact](mailto:rahulsound@gmail.com)

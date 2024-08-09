@@ -45,24 +45,24 @@ def run_skills_and_interests():
             - 3G, 4G, 5G RAN System Architecture and Design | Protocols: RRC, PDCP, RLC, MAC
             - 3GPP contributions ''')
 
-    st.subheader('Sensor Fusion Algorithms:')
+    st.subheader('Sensor Fusion Algorithms')
     st.write('''
              - Radar + Camera fusion, 
              - Experimented with early and late fusion architectures (Data, Feature, Decision fusion) on top of pre-trained computer vision models (YOLO)''')
 
-    st.subheader('Statistical Methods:')
+    st.subheader('Statistical Methods')
     st.write('Descriptive & Predictive Analysis and applying Hypothesis testing, Confusion matrix in model evaluation')
 
-    st.subheader('Programming Languages:')
+    st.subheader('Programming Languages')
     st.write('C, C++, Python [pandas, numpy, sklearn, matplotlib, seaborn, nltk, plotly, bokeh')
 
-    st.subheader('Tools:')
+    st.subheader('Tools')
     st.write('OpenAI Gym, Jupyter notebooks, Pycharm, Spyder, Matlab, Octave, Tableau')
 
     st.subheader('OS and Version Control')
     st.write('Unix, Linux, Git, Clearcase.')
 
-    st.subheader('Media:')
+    st.subheader('Media')
     st.write('[LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/), [Medium](https://medium.com/@rahulsound), [GitHub](https://github.com/rahulsound)')
 
     st.write("")

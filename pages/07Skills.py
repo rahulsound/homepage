@@ -21,11 +21,12 @@ def run_sub_header(online=True):
 def run_skills_and_interests():
     st.header(":blue[Skills & Expertise]")
     st.markdown(''' 
-###### :violet[**I am passionate about fostering innovation in the intersection of Telecom & AI/ML, Computer Vision & Sensor Fusion domains | [[filed patents]](https://patents.justia.com/inventor/rahul-soundrarajan)**]''')
+###### :violet[**I am passionate about fostering innovation in the intersection of Telecom & AI/ML, Computer Vision & Sensor Fusion domains | [[filed patents]](https://patents.justia.com/inventor/rahul-soundrarajan)**]'''
+st.write('Reskilling is essential to keep-up with Tech and figure out how to do things better...) 
 
 
     
-    st.subheader('Machine Learning and AI:')
+    st.subheader('Machine Learning and AI')
     st.write('''
              - Reinforcement Learning (Deep-Q Learning) 
              - Computer Vision for custom object training, object detection, classification, segmentation (YOLO based models)
@@ -36,7 +37,7 @@ def run_skills_and_interests():
              - Exploring GenAI
             ''' )
     
-    st.subheader('Telecom:')
+    st.subheader('Telecom')
     st.write('''
             - 5G, O-RAN (WG2, WG3, WG4), NSA/SA architectures
             - Near-RT RIC, Non-RT RIC
@@ -58,17 +59,16 @@ def run_skills_and_interests():
     st.write('OpenAI Gym, Jupyter notebooks, Pycharm, Spyder, Matlab, Octave, Tableau')
 
     st.subheader('OS and Version Control')
-    st.write('Lnix, Linux, Clearcase, Git.')
+    st.write('Unix, Linux, Git, Clearcase.')
 
     st.subheader('Media:')
     st.write('[LinkedIn](https://www.linkedin.com/in/rahul-soundrarajan/), [Medium](https://medium.com/@rahulsound), [GitHub](https://github.com/rahulsound)')
 
     st.write("")
-    st.subheader('Skill Development Graph:')
+    st.subheader('Skill Development Graph')
     st.write('[**"One ounce of practice is worth a thousand pounds of theory"** ](https://vivekavani.com/harvard-qa-swami-vivekananda/)- _Swami Vivekananda_')
-    st.write('Reskilling is essential to keep-up with Tech and figure out how to do things better... ')  
     st.write('I have been at the "Do-and-Learn" cycle for a while to figure out better ways of approaching problems that make an impact.')
-    df = pd.read_csv('skill_progress.csv', index_col='Year')
+    df = pd.read_csv('skill_progress.csv')
     st.table(df)
 
 
